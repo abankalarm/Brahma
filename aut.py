@@ -99,7 +99,7 @@ if __name__ == '__main__':
     
     # both threads completely executed 
     print("subdomains enumerated!, joining files now") 
-    cmd_join = "sort sub_amass_{} sub_subfinder_{} > domains_{}".format(domain,domain,domain)
+    cmd_join = "sort -u sub_amass_{} sub_subfinder_{} > domains_{}".format(domain,domain,domain)
     os.system(cmd_join)
     print("combined and saved with domains_site")
     
