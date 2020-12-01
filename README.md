@@ -1,6 +1,8 @@
 # Brahma (for linux only, can easily be modified for windows tho)
 This my own built from scratch automation recon framework.
 
+![screenshot](brahma.png)
+
 ## heres the work flow 
 
 I am quiet impatient so i like threading - feel free to modify this and push commits 
