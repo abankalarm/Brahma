@@ -29,3 +29,12 @@ I am quiet impatient so i like threading - feel free to modify this and push com
 2. masscan
 3. amass
 4. subfinder
+
+
+
+# note :
+I am not a big believer of licenses, so feel free to use it any way you like - if you want even, go ahead and push your own modifications.
+
+If you dont like what i am doing here, please move on
+This tool is in no way supposed to hack for you, it helps you wield a very big gun in a much better way tho. 
+how you use this is upto you, happy hacking
