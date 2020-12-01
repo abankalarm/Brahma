@@ -5,7 +5,7 @@ This my own built from scratch automation recon framework.
 
 ## heres the work flow 
 
-I am quiet impatient so i like threading - feel free to modify this and push commits 
+I am quite impatient so i like threading - feel free to modify this and push commits 
 
 1. You put a base website, example razer.com, you can enumerate for subdomains using -e
 2. This gets divided into two threads- one of amass and other subfinder which output files seperately ( subdomains lots of subdomains)
