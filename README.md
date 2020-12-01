@@ -8,9 +8,11 @@ I am quiet impatient so i like threading - feel free to modify this and push com
 1. You put a base website, example razer.com, you can enumerate for subdomains using -e
 2. This gets divided into two threads- one of amass and other subfinder which output files seperately ( subdomains lots of subdomains)
 3. As soon as both these outputs are recieved. A simple script combines both to achieve a single file
-### for those who run with -n
+### for those who run with -n or -nuclei
 4. this output is sent to nessus and output in txt form
-4. A DNS resolver script converts the obtained subdomains into ip addresses and then inputs them into massscan
+
+
+5. A DNS resolver script converts the obtained subdomains into ip addresses and then inputs them into massscan
    After the mass scan result output
 ### for those who run this with -r or --rain 
 6. brutespray takes these results and tries to brute force them for default credentials
