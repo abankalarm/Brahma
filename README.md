@@ -35,6 +35,7 @@ I am quite impatient so i like threading - feel free to modify this and push com
 2. masscan
 3. amass
 4. subfinder
+5. nuclei
 
 
 
