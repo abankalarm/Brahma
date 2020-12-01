@@ -5,9 +5,11 @@ This my own built from scratch automation recon framework.
 
 I am quiet impatient so i like threading - feel free to modify this and push commits 
 
-1. You put a base website, example razer.com
+1. You put a base website, example razer.com, you can enumerate for subdomains using -e
 2. This gets divided into two threads- one of amass and other subfinder which output files seperately ( subdomains lots of subdomains)
 3. As soon as both these outputs are recieved. A simple script combines both to achieve a single file
+### for those who run with -n
+4. this output is sent to nessus and output in txt form
 4. A DNS resolver script converts the obtained subdomains into ip addresses and then inputs them into massscan
 5. After the mass scan result output
 ### for those who run this with -r or --rain 
@@ -18,7 +20,7 @@ I am quiet impatient so i like threading - feel free to modify this and push com
 
 ## things to be implemented - 
 1. I have added option for github search but it hasnt been fully incorporated yet ( it will add extra thread so no time waste)
-2. I would join Nessus as well with options to run template - a detailed output of all services run by every subdomain would be a nice addition
+2. <s>I would join nucle as well with options to run template - a detailed output of all services run by every subdomain would be a nice addition</s>(implemented)
 3. All dead websites will automatically be sent to try for subdomain takeover(tho less and less common now - but i would like to have a nice view at certs)
 
 ## bugs
