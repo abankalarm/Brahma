@@ -11,7 +11,7 @@ I am quiet impatient so i like threading - feel free to modify this and push com
 ### for those who run with -n
 4. this output is sent to nessus and output in txt form
 4. A DNS resolver script converts the obtained subdomains into ip addresses and then inputs them into massscan
-5. After the mass scan result output
+   After the mass scan result output
 ### for those who run this with -r or --rain 
 6. brutespray takes these results and tries to brute force them for default credentials
 ### for those who run this with -j or --js 
